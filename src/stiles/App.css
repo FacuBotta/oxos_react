@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.containerListeTaches {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tache {
+  height: 30px;
+  background-color: rgba(103, 101, 101, 0.41);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.newTacheForm {
+  position: absolute;
+  background-color: blue;
+  width: 100%;
+  height: 50px;
+}
+
+.aFraire {
+  background-color: rgb(231, 109, 76);
+  width: 30%;
+}
+.enCours {
+  background-color: rgb(231, 174, 76);
+  width: 30%;
+}
+.faites {
+  background-color: rgb(177, 231, 76);
+  width: 30%;
+}
+
+/* <<<<<<<<<<<<<<>>>>>>>>>>>>>>>> */
+
+.nav-links{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  margin-bottom: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.form_dataDash {
+  margin-right: 25%;
+  padding-top: 50px;
+}
+
+.containerDash {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 50px;
+  margin-top: 50px;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.App-header-dashPage {
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+}
